@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+#startBtn {
+  position: absolute;
+  top: 35%;
+  left: 41%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100px;
+  transition: 0.1s;
+  display: block;
+}
+
+#startBtn:hover {
+  position: absolute;
+  top: 34.5%;
+  left: 41%;
+}
+
+#startBtn:active {
+  position: absolute;
+  top: 35.5%;
+  left: 41%;
+}
+
+
+#ball {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  display: none;
+}
+
+#player1 {
+  background-color: white;
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  top: 34.5%;
+  left: 3%;
+  display: none;
+}
+
+#player2 {
+  background-color: white;
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  top: 34.5%;
+  left: 90%;
+  display: none;
+}
+
+#topText {
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 2%;
+  left: 40%;
+  font-size: 30px;
+  display: none;
+  font-family: system-ui;
+}
+
+
+#AT {
+  background-color: white;
+  width: 75px;
+  height: 25px;
+  position: absolute;
+  top: 20.5%;
+  left: 3%;
+  display: none;
+}
+
+#AB {
+  background-color: white;
+  width: 75px;
+  height: 25px;
+  position: absolute;
+  top: 70.5%;
+  left: 3%;
+  display: none;
+}
+
+#BT {
+  background-color: white;
+  width: 75px;
+  height: 25px;
+  position: absolute;
+  top: 25%;
+  left: 89.5%;
+  display: none;
+  
+}
+
+#BB {
+  background-color: white;
+  width: 75px;
+  height: 25px;
+  position: absolute;
+  top: 65%;
+  left: 89.5%;
+  display: none;
+}
+
+
+.controls {
+  position: absolute;
+  top: 15%;
+  left: 43%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.controls2 {
+  position: absolute;
+  top: 20%;
+  left: 43%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: system-ui;
+}
